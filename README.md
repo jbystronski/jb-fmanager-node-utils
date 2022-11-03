@@ -34,7 +34,7 @@ app.get("/api/fm/map", async (request, response) => {
 });
 ```
 
-<strong>[get] crate_folder</strong>
+<strong>[get] create_folder</strong>
 
 <span>Creates new directory in the specified path</span>
 
