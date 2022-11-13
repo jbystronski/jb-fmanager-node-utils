@@ -1,6 +1,6 @@
 {
   "name": "@jb_fmanager/node-utils",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "utlity package for jb file manager and nodejs backend",
   "repository": "jbystronski/jb-fmanager-node-utils",
   "main": "index.js",
