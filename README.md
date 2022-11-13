@@ -21,11 +21,11 @@ const { map } = require("@jb_fmanager/node-utils");
 
 app.get("/api/fm/map", async (request, response) => {
   try {
-    // expects path argument from the query
+    // expects root folder argument, the directory in the filesystem that you want to map
     // result is the formatted file tree
     // throws error
 
-    const result = await map(request.query.path);
+    const result = await map(root);
 
     // response has to include result as json
   } catch (e) {
